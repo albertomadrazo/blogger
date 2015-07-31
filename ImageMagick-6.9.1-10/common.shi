@@ -1,0 +1,21 @@
+# Test environment
+top_srcdir='/home/alberto/Desktop/web/odin/ruby/rails/blogger/ImageMagick-6.9.1-10'
+top_builddir='/home/alberto/Desktop/web/odin/ruby/rails/blogger/ImageMagick-6.9.1-10'
+
+set -a
+COMPARE="/home/alberto/Desktop/web/odin/ruby/rails/blogger/ImageMagick-6.9.1-10/utilities/compare"
+COMPOSITE="/home/alberto/Desktop/web/odin/ruby/rails/blogger/ImageMagick-6.9.1-10/utilities/composite"
+CONJURE="/home/alberto/Desktop/web/odin/ruby/rails/blogger/ImageMagick-6.9.1-10/utilities/conjure"
+CONVERT="/home/alberto/Desktop/web/odin/ruby/rails/blogger/ImageMagick-6.9.1-10/utilities/convert"
+DISPLAY="/home/alberto/Desktop/web/odin/ruby/rails/blogger/ImageMagick-6.9.1-10/utilities/display"
+IDENTIFY="/home/alberto/Desktop/web/odin/ruby/rails/blogger/ImageMagick-6.9.1-10/utilities/identify"
+MONTAGE="/home/alberto/Desktop/web/odin/ruby/rails/blogger/ImageMagick-6.9.1-10/utilities/montage" 
+VALIDATE="/home/alberto/Desktop/web/odin/ruby/rails/blogger/ImageMagick-6.9.1-10/tests/validate"
+DRAWTEST="/home/alberto/Desktop/web/odin/ruby/rails/blogger/ImageMagick-6.9.1-10/tests/drawtest"
+WANDTEST="/home/alberto/Desktop/web/odin/ruby/rails/blogger/ImageMagick-6.9.1-10/tests/wandtest"
+LD_LIBRARY_PATH="/home/alberto/Desktop/web/odin/ruby/rails/blogger/ImageMagick-6.9.1-10/magick/.libs:${LD_LIBRARY_PATH}"
+MAGICK_CODER_MODULE_PATH="/home/alberto/Desktop/web/odin/ruby/rails/blogger/ImageMagick-6.9.1-10/coders"
+MAGICK_CONFIGURE_PATH="/home/alberto/Desktop/web/odin/ruby/rails/blogger/ImageMagick-6.9.1-10/config:/home/alberto/Desktop/web/odin/ruby/rails/blogger/ImageMagick-6.9.1-10/config"
+MAGICK_FILTER_MODULE_PATH="/home/alberto/Desktop/web/odin/ruby/rails/blogger/ImageMagick-6.9.1-10/filters"
+PATH="/home/alberto/Desktop/web/odin/ruby/rails/blogger/ImageMagick-6.9.1-10/utilities:/home/alberto/Desktop/web/odin/ruby/rails/blogger/ImageMagick-6.9.1-10/tests:${PATH}"
+set +a
